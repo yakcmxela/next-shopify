@@ -1,0 +1,10 @@
+development:
+  password: private_apps_pass
+  theme_id: ""
+  store: {shop}.myshopify.com
+  directory: "out"
+production:
+  password: private_apps_pass
+  theme_id: ""
+  store: {shop}.myshopify.com
+  directory: "out"

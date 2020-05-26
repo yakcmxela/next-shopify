@@ -1,0 +1,16 @@
+{
+  "name": "Featured Product",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Test"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Product",
+      "category": "Product"
+    }
+  ]
+}
