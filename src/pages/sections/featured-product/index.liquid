@@ -1,0 +1,21 @@
+{% if section.settings.title != blank %}
+  <div>{{ section.settings.title }}</div>
+{% endif %}
+{% schema %}
+  {
+    "name": "Featured Product",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Test"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Featured Product",
+        "category": "Product"
+      }
+    ]
+  }
+{% endschema %}
