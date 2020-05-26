@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "deploy": "yarn static; yarn shopify",
-    "shopify": "node liquify.js",
+    "shopify": "node liquify.js && theme deploy --env=production",
     "start": "next start",
     "static": "next build && next export"
   },
